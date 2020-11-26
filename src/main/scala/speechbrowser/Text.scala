@@ -4,13 +4,7 @@ import java.io.{File, FileOutputStream}
 
 import software.amazon.awssdk.core.ResponseInputStream
 import software.amazon.awssdk.services.polly.PollyClient
-import software.amazon.awssdk.services.polly.model.{
-  OutputFormat,
-  SynthesizeSpeechRequest,
-  SynthesizeSpeechResponse,
-  TextType,
-  VoiceId
-}
+import software.amazon.awssdk.services.polly.model._
 
 object Text {
 

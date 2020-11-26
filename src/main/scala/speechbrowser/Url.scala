@@ -11,5 +11,5 @@ object Url {
     Jsoup.connect(url).get()
 
   def writeToAudioFile(client: PollyClient, outputFile: File)(url: String): Unit =
-    Doc.writeToAudioFile(client, outputFile)(document(url))
+    Article.writeToAudioFile(client, outputFile)(document(url))
 }

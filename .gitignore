@@ -1,4 +1,4 @@
 target/
 .bsp
 .idea
-.mp3
+*.mp3
